@@ -1,0 +1,100 @@
+.container {
+    font-family: "Itim", cursive;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background: white;
+    margin-bottom: 60px;
+}
+
+.searchBar {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background: #E878AC;
+}
+
+.search-box {
+    width: 90%;
+    margin-right: 0.5rem;
+    /* margin-left: 100px; */
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.products {
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.card {
+    background: #FEF3ED;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 25%;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #E878AC;
+    /* padding: 1rem 0; */
+}
+
+.nav-1, .nav-2, .nav-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.nav-icon {
+    color: white;
+    font-size: 30px;
+}
+
+.nav-icon:hover {
+    color: black;
+}
+
+.nav-link {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.product-img {
+    width: 70%;
+}
+
+.product-name {
+    color: black;
+    font-size: 28px;
+    margin-bottom: -30px;
+}
+
+.product-price {
+    color: black;
+    font-size: 28px; 
+}

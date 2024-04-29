@@ -1,0 +1,93 @@
+.confirm-checkout {
+    /* background-color: cornflowerblue; */
+    font-family: "Itim", cursive;
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: 1000px;
+}
+
+.order-details-title {
+    font-size: 20px;
+}
+
+/* .order-items-card {
+    background-color: chocolate;
+} */
+
+.user-info-list {
+    /* background-color: aqua; */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 500px 500px;
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+}
+
+.user-info-item {
+    /* background-color: #E878AC; */
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #CDCDCD;
+    border-bottom: 10%;
+}
+
+.user-info-label {
+    font-size: 20px;
+}
+
+.user-info-value {
+    font-size: 18px;
+}
+
+.confirm-order-details {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+
+.edit-button {
+    font-size: 18px;
+    width: 150px;
+    height: 80%;
+    display: block;
+    padding: 10px 20px;
+    margin-right: 20px;
+    background-color: white;
+    border: 1px solid #E878AC;
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.edit-button:hover {
+    background-color: #E878AC;
+    color: white;
+    border: 2px solid #FFFAEC;
+    transition: background-color 0.5s ease;
+}
+
+.item-price {
+    font-size: 20px;
+}
+
+.confirm-footer-bar {
+    background-color: #F7C0C8;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    bottom: 0;
+}
+
+.edit-button {
+    margin-right: 0px;
+}

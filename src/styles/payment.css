@@ -1,0 +1,84 @@
+.account-info {
+    font-family: "Itim", cursive;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.account-number, .account-name, .payment-total-price, .payment-upload {
+    /* background-color: blueviolet; */
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.payment-p {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.payment-p-2 {
+    width: 100%;
+    font-size: 18px;
+    border-bottom: 1px solid black;
+}
+
+.payment-upload {
+    position: relative; /* Position the label absolutely */
+}
+
+.payment-upload-label {
+    display: block;
+    width: 90%;
+    height: 150px;
+    background-color: #D9D9D9;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 20px;
+    border: 3px dashed white;
+    margin-top: 10px;
+}
+
+.payment-upload-label:hover {
+    border: 3px dashed #E878AC;
+}
+
+.payment-button {
+    width: 200px;
+    height: 80%;
+    display: block;
+    padding: 10px 20px;
+    margin-right: 20px;
+    background-color: #E878AC;
+    border: 1px solid #FFFAEC;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.payment-button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #E694A0;
+    transition: background-color 0.5s ease;
+}
+
+.payment-footer-bar {
+    background-color: #F7C0C8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    bottom: 0;
+}

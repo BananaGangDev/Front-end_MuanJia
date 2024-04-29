@@ -1,0 +1,88 @@
+.my-basket {
+    font-family: "Itim", cursive;
+    width: 100vw;
+    height: 100vh;
+}
+
+.basket-h2 {
+    margin-top: 20px;
+    color: black;
+}
+
+.basket-items {
+    /* background-color: aquamarine; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.basket-item-card {
+    background-color: #FFFAEC;
+    width: 70vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.basket-item-card-left {
+    /* background-color: #E878AC; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin-left: 20px;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.basket-item-card-right {
+    /* background-color: blue; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin-right: 20px;
+    font-size: 24px;
+    gap: 20px;
+}
+
+.basket-image {
+    width: 15%;
+}
+
+.goto-checkout-button {
+    font-size: 18px;
+    width: 150px;
+    height: 80%;
+    display: block;
+    padding: 10px 20px;
+    margin-right: 20px;
+    background-color: #E878AC;
+    border: 1px solid #FFFAEC;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.goto-checkout-button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #E694A0;
+    transition: background-color 0.5s ease;
+}
+
+.basket-price {
+    font-size: 24px;
+}

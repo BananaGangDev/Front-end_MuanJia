@@ -1,0 +1,97 @@
+.homepage-container {
+    font-family: "Itim", cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FEF3ED;
+    width: 100vw;
+    height: 100vh;
+    gap: 30px;
+}
+
+.muanjia-logo {
+    width: 15%;
+    border-radius: 100%;
+}
+
+.text-header {
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    /* background-color: #007bff; */
+    margin-bottom: 0;
+    color: #E878AC;
+}
+
+h2 {
+    /* background-color: #00c300; */
+    margin-top: 0;
+    color: #E878AC;
+}
+
+.social-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.instagram-btn {
+    background-color: #E694A0;
+    border: 1px solid white;
+    color: black;
+    width: 50%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.ig, .line {
+    color: black;
+}
+
+.lineshop-btn {
+    background-color: #E694A0;
+    border: 1px solid white;
+    color: black;
+    width: 50%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 10px
+}
+
+.info-btn {
+    background-color: #E694A0;
+    border: 2px solid white;
+    color: black;
+    width: 50%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.instagram-btn:hover, .lineshop-btn:hover, .info-btn:hover {
+    background-color: white;
+    border: 2px solid #E694A0;
+    transition: background-color 0.5s ease;
+}
+
+.homepage-p {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}

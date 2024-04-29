@@ -1,0 +1,138 @@
+.checkout-form {
+    font-family: "Itim", cursive;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #FEF3ED;
+    border-bottom: 1px solid black;
+    width: 100vw;
+    height: 10vh;
+    gap: 20px;
+}
+
+.back-icon {
+    font-size: 40px;
+    color: #E878AC;
+    margin-left: 20px;
+}
+
+.checkout-h2 {
+    margin-top: 20px;
+    color: black;
+}
+
+.checkout-p {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+form {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 500px 500px;
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+}
+
+
+.checkout-input {
+    background-color: #E694A0;
+    border: 2px solid #FFFAEC;
+    color: white;
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 0.5em;
+}
+
+.checkout-input::placeholder {
+    color: white;
+}
+
+.checkout-input:hover {
+    color: black;
+    border: 2px solid #E694A0;
+    transition: background-color 0.5s ease;
+}
+
+.checkout-input:hover::placeholder {
+    color: black;
+}
+
+.footer-bar {
+    background-color: #F7C0C8;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    bottom: 0;
+}
+
+.total-price {
+    text-align: right;
+    font-weight: bold;
+}
+
+.checkout-button {
+    font-size: 18px;
+    width: 150px;
+    height: 80%;
+    display: block;
+    padding: 10px 20px;
+    margin-right: 20px;
+    background-color: #E878AC;
+    border: 1px solid #FFFAEC;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.checkout-button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #E694A0;
+    transition: background-color 0.5s ease;
+}
+
+.back-icon:hover {
+    color: black;
+    transition: background-color 0.5s ease;
+}
+
+.deliveryMethod {
+    font-size: 18px;
+    width: 150px;
+    height: 80%;
+    display: block;
+    padding: 10px 20px;
+    margin-right: 20px;
+    background-color: #FFFAEC;
+    border: 1px solid #E878AC;
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.deliveryMethod:hover {
+    background-color: #E878AC;
+    border: 1px solid #FFFAEC;
+    background-color: white;
+    color: black;
+    border: 2px solid #E694A0;
+    transition: background-color 0.5s ease;
+}
+
+.total-price {
+    font-size: 20px;
+}
